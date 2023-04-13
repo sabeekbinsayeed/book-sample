@@ -1,0 +1,17 @@
+.shop-component {
+
+    display: grid;
+    grid-template-columns: 4fr 1fr
+}
+
+.book-component {}
+
+.book-show {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.price-component {
+    /* background-color: aqua; */
+}

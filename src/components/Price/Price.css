@@ -1,0 +1,9 @@
+.button-price {
+    background-color: red;
+    color: white;
+}
+
+.price-show {
+    position: sticky;
+    top: 340px;
+}

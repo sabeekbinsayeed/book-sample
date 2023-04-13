@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Basic Marketing",
+        "price": 420,
+        "img": "https://wafilife-media.wafilife.com/uploads/2021/03/%E0%A6%A8%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A6%BF%E0%A6%82-250x368.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Halal Marketing",
+        "price": 500,
+        "img": "https://wafilife-media.wafilife.com/uploads/2022/03/halal-marketing-250x390.jpeg"
+    },
+    {
+        "id": "3",
+        "name": "Marketing Idea",
+        "price": 1500,
+        "img": "https://wafilife-media.wafilife.com/uploads/2020/09/118896262_2761006007558788_1107809324319729098_n-scaled-250x391.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Facebook marketing",
+        "price": 900,
+        "img": "https://wafilife-media.wafilife.com/uploads/2021/03/arifbhai-250x388.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Marketing game",
+        "price": 2000,
+        "img": "https://wafilife-media.wafilife.com/uploads/2022/02/MarketingGame-front-250x390.png"
+    },
+    {
+        "id": "6",
+        "name": "Personal branding",
+        "price": 1000,
+        "img": "https://wafilife-media.wafilife.com/uploads/2021/05/%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%B2-%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%82-250x395.png"
+    }
+]
