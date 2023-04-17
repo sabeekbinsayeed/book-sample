@@ -4,5 +4,22 @@
 
 .button-book {
     background-color: red;
-    color: white
+    color: white;
+    margin-left: 10px;
+
+}
+
+.book {
+
+    margin-left: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    height: 559px;
+    position: relative;
+
+}
+
+.two-buttons {
+    margin-left: 30px;
+    position: absolute;
+    bottom: 10px;
 }

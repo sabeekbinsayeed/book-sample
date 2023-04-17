@@ -3,6 +3,7 @@ import Books from '../Books/Books';
 import Price from '../Price/Price';
 import './Shop.css'
 import { addToDb, getShoppingCart } from '../../utilities/fakedb'
+import Banner from '../Banner/Banner';
 
 
 const Shop = () => {
@@ -53,23 +54,27 @@ const Shop = () => {
 
     }
     return (
-        <div className='shop-component' >
+        <div>
+            <Banner></Banner>
+            <div className='shop-component' >
 
-            <div className='book-component'>
-                <h1>Hello from Book Store</h1>
-                <div className='book-show'>
-                    {
-                        books.map(book => <Books key={book.id} book={book} addtocart={addtocart}></Books>)
-                    }
+                <div className='book-component'>
+
+
+                    <div className='book-show'>
+                        {
+                            books.map(book => <Books key={book.id} book={book} addtocart={addtocart}></Books>)
+                        }
+                    </div>
+
                 </div>
 
-            </div>
+                <div className='price-component'>
+                    <Price carts={carts}></Price>
+                </div>
 
-            <div className='price-component'>
-                <Price carts={carts}></Price>
-            </div>
-
-        </div >
+            </div >
+        </div>
     );
 };
 

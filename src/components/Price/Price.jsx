@@ -1,5 +1,6 @@
 import React from 'react';
 import './Price.css'
+import { useNavigate } from 'react-router-dom';
 
 const Price = (props) => {
     console.log(props)
@@ -8,11 +9,18 @@ const Price = (props) => {
         totalprice = totalprice + book.price * book.quantity;
     }
 
+
+    const navigate = useNavigate()
+
+    const handleNavigate = () => {
+        navigate('/review')
+    }
+
     return (
         <div className='price-show'>
 
 
-            <button className='button-price'>{totalprice} tk</button>
+            <button onClick={handleNavigate} className='button-price'>{totalprice} tk</button>
         </div>
     );
 };

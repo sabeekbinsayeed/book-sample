@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.logo-nav img {
+    width: 10px;
+
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+.links a:hover {
+    color: black;
+}
